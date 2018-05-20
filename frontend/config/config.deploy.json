@@ -1,0 +1,4 @@
+{
+  "aws_s3_bucket": "pizza42-invalid",
+  "aws_region": "eu-central-1"
+}

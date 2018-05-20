@@ -1,0 +1,13 @@
+{
+  "name": "dynamodb-local",
+  "version": "1.0.0",
+  "description": "DynamoDB-Local",
+  "main": "index.js",
+  "dependencies": {
+    "dynamodb-local": "0.0.21",
+    "node-jre": "^0.2.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

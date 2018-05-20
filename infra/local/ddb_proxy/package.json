@@ -1,0 +1,21 @@
+{
+  "name": "dynamodb-local-mock-unsupported-api",
+  "version": "1.0.0",
+  "description": "Contains files to create a DynamoDB-Local Docker container to provide mockes to the newly unsupported API's (Tags and TTL)",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenao/dynamodb-local-mock-unsupported-api"
+  },
+  "dependencies": {
+    "hoek": "^4.2.1",
+    "koa": "^2.5.1",
+    "koa-json-body": "^5.3.0",
+    "koa-proxy": "^0.9.0",
+    "sshpk": "^1.14.1"
+  },
+  "scripts": {
+    "start": "node index.js --prod"
+  }
+}

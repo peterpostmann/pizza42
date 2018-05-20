@@ -1,0 +1,46 @@
+{
+  "name": "pizza42",
+  "version": "0.0.1",
+  "description": "Auth0 sample app",
+  "main": "lambda.js",
+  "scripts": {
+    "start": "node local/app.local.js",
+    "deploy": "gulp deploy",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterpostmann/pizza42"
+  },
+  "keywords": [
+    "aws",
+    "express",
+    "serverless",
+    "nodejs",
+    "rest",
+    "api",
+    "lambda",
+    "apigateway"
+  ],
+  "author": "Peter Postmann",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.236.0",
+    "aws-serverless-express": "^3.0.2",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-jwt": "^3.4.0",
+    "is-uuid": "^1.0.2",
+    "jwks-rsa": "^1.1.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-lambda-deploy": "^0.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-zip": "^4.1.0"
+  }
+}

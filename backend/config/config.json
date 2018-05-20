@@ -1,0 +1,4 @@
+{
+  "aws_ddb_endpoint": "https://dynamodb.eu-central-1.amazonaws.com",
+  "aws_ddb_table_orders": "pizza42-orders"
+}

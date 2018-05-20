@@ -1,0 +1,7 @@
+{
+  "aws_region": "eu-central-1",
+  "aws_lambda_main_name": "pizza42-main",
+  "aws_lambda_main_role": "arn:aws:iam::invalid:role/pizza42-lambda",
+  "aws_lambda_main_handler": "lambda.handler",
+  "aws_lambda_main_runtime": "nodejs8.10"
+}
